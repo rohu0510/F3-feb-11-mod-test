@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amazon Clone</title>
+</head>
+
+<body>
+    <!-- Navbar section Start -->
+    <div class="header">
+        <div class="nav">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#">Shopping Cart</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">Cart Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar section Ends -->
+
+    <!-- Heading Start -->
+    <h1 class="heading">All Items</h1>
+    <!-- Heading Ends -->
+
+    <!-- Card Template Start -->
+    <template id="product-card-template">
+        <div class="product-card">
+            <img class="product-image" src="" alt="product image">
+            <h3 class="product-title"></h3>
+            <h3 class="product-brand"></h3>
+            <h2 class="product-price" style="color: red; padding:5px"></h2>
+            <h4 class="product-rating"></h4>
+            <h4 class="product-stock"></h4>
+        </div>
+    </template>
+    <!-- Card Template Ends -->
+
+    <!-- Container for the product cards -->
+    <div id="product-container"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
